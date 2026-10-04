@@ -1,0 +1,7 @@
+[workspace]
+
+resolver = "3"
+members = ["hello_bevy"]
+
+[workspace.dependencies]
+bevy = "0.15.1"
