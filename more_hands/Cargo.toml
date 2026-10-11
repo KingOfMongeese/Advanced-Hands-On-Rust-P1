@@ -1,7 +1,8 @@
 [workspace]
 
 resolver = "3"
-members = ["hello_bevy"]
+members = ["hello_bevy", "my_library", "pig"]
 
 [workspace.dependencies]
-bevy = "0.15.1"
+bevy = "0.16.0"
+bevy_egui = "0.34"
